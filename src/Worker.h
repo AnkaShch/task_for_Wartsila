@@ -1,7 +1,3 @@
-//
-// Created by anka on 21.12.2019.
-//
-
 #pragma once
 
 #include <boost/lockfree/queue.hpp>

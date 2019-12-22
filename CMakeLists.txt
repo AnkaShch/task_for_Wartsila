@@ -7,6 +7,6 @@ find_library(PTHREAD_LIBRARY pthread)
 
 add_definitions(-DBOOST_ERROR_CODE_HEADER_ONLY -DBOOST_SYSTEM_NO_DEPRECATED)
 
-add_executable(task main.cpp Request.h Stopper.cpp Stopper.h Worker.cpp Worker.h Request.cpp)
+add_executable(task main.cpp src/Request.h src/Stopper.cpp src/Stopper.h src/Worker.cpp src/Worker.h src/Request.cpp)
 
 target_link_libraries(task ${PTHREAD_LIBRARY})

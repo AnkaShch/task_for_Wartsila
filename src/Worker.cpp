@@ -1,6 +1,3 @@
-//
-// Created by anka on 21.12.2019.
-//
 #include "Worker.h"
 
 void Worker::run(int time) {
